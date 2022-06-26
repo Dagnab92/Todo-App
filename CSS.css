@@ -45,3 +45,65 @@ h4{
 	border-radius: 8px;
 	margin-bottom: 20px;
 }
+
+.createTask input[type="submit"]{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color:#FFF;
+    box-shadow: rgba(80, 127, 214, 0.966);
+    background-color: rgba(67, 124, 230, 0.884);
+    font-weight: bold;
+    cursor:pointer;
+    transition: 0.2s ease-in-out
+    
+}
+.createTask input[type="submit"]:hover{
+opacity: 0.75;
+}
+.taskList .taskItem{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+	padding: 10px 20px;
+	color: rgb(5, 5, 5);
+	background-color: #FFF;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+.taskItem label{
+    display:block;
+    margin-right:10px;
+    cursor: pointer;
+}
+.taskItem .taskContent{
+    flex: 1 1 0%
+}
+
+.taskItem .actions button{
+    display: block;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(67, 124, 230, 0.884);
+    font-weight: 700;
+    color: #FFF;
+    transition :0.2s ease-in-out
+
+}
+.taskItem .actions button:hover{
+opacity: 0.75;
+}
+.taskItem .actions .edit{
+    margin-right: 6px
+}
+.taskItem .actions{
+    display: flex;
+    align-items: center;
+}
+.taskItem.done .taskContent input {
+    text-decoration: line-through;
+    color: grey
+}

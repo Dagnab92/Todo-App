@@ -10,12 +10,13 @@
 
 <body>
     <main>
-
+        <!-- Intro section of Todo App -->
         <section class="greeting">
             <h2 class="title">
                 Hi!, <input type="text" id="name" placeholder="Enter your name here">
             </h2>
         </section>
+        <!-- Creation of Todo Task, user enters information and submits -->
         <section class="create-todo">
             <h3> Todo List:</h3>
             <form class="new-todo-form">
@@ -23,21 +24,21 @@
                 <input type="text" name="content" id="content" placeholder="Enter your task here ">
                 <input type="submit" value="Add task">
                 </div>
-                <input type="submit" value="Add todo">
             </form>
         </section>
+        <!-- Submitted tasks populate this section -->
         <section class="todo-list">
             <h2>Todo List:</h2>
             <div class="list" id="todo_list">
                 <div class="todo_item">
+                    <!-- Test item -->
                     <label>
                         <input type="checkbox">
-                    
                     </label>
                     <div class="todo-content">
                         <input type="text" value="Testing" readonly>
                     </div>
-                    
+                    <!-- Action buttons to modify data -->
                     <div class="actions">
                         <button class="edit">Edit</button>
                         <button class="delete">Delete</button>

@@ -57,7 +57,7 @@ h4{
     background-color: rgba(67, 124, 230, 0.884);
     font-weight: bold;
     cursor:pointer;
-    transition: 0.2s ease-in-out
+    transition: 0.2s ease-out
     
 }
 .createTask input[type="submit"]:hover{
@@ -90,7 +90,8 @@ opacity: 0.75;
     background-color: rgba(67, 124, 230, 0.884);
     font-weight: 700;
     color: #FFF;
-    transition :0.2s ease-in-out
+    opacity: 1;
+    transition :0.2s ease-out
 
 }
 .taskItem .actions button:hover{

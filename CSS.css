@@ -1,3 +1,4 @@
+/*Resets start*/
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -11,6 +12,10 @@ input:not([type="checkbox"]), button {
 	background: none;
 	cursor: initial;
 }
+/*Resets finsih*/
+/**/
+/**/
+/* CSS for headings and body*/
 body {
     background: rgba(235, 229, 229, 0.774);
     color: rgb(0, 0, 0);
@@ -34,7 +39,7 @@ h4{
     padding-bottom: 8px;
 
 }
-
+/*CSS for the New task section*/
 .createTask input[type="text"] {
 	display: block;
 	width: 100%;
@@ -45,7 +50,7 @@ h4{
 	border-radius: 8px;
 	margin-bottom: 20px;
 }
-
+/*CSS for submit button*/
 .createTask input[type="submit"]{
     display: block;
     width: 100%;
@@ -63,6 +68,7 @@ h4{
 .createTask input[type="submit"]:hover{
 opacity: 0.75;
 }
+/*CSS for task items*/
 .taskList .taskItem{
     display: flex;
     align-items: center;
@@ -82,6 +88,7 @@ opacity: 0.75;
     flex: 1 1 0%
 }
 
+/* CSS for the action buttons (edit & delete)*/
 .taskItem .actions button{
     display: block;
     border-radius: 8px;
@@ -104,6 +111,7 @@ opacity: 0.75;
     display: flex;
     align-items: center;
 }
+/*CSS for adding a line through the task when it has been completed (Checked)*/
 .taskItem.done .taskContent input {
     text-decoration: line-through;
     color: grey

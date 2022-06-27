@@ -116,3 +116,7 @@ opacity: 0.75;
     text-decoration: line-through;
     color: grey
 }
+/*CSS for text size of todo list*/
+.taskContent input[type="text"] {
+    font-size: medium;
+}
